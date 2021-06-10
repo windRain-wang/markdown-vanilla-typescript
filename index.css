@@ -1,0 +1,53 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.wrapper .nav {
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  background-color: steelblue;
+}
+.wrapper .nav .nav-tool {
+  padding: 4px 8px;
+  background-color: darkcyan;
+  border-radius: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+.wrapper .nav .nav-tool:hover {
+  background-color: rgb(0, 216, 216);
+}
+.wrapper .content {
+  position: absolute;
+  top: 40px;
+  bottom: 0;
+  width: 100%;
+}
+.wrapper .content .content-edit {
+  float: left;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgb(190, 215, 236);
+}
+.wrapper .content .content-show {
+  float: left;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+textarea {
+  resize: none;
+  outline: none;
+  border: none;
+}
